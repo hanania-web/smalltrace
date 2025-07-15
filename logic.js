@@ -10,7 +10,7 @@ fetch('sl.json')
     });
 
     if (available.length === 0) {
-      window.location.href = "https://hanania-web.gethub.io/smalltrace";
+      window.location.href = "https://hanania-web.gethub.io/smalltrace/README.md";
       return;
     }
 
