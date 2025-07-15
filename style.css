@@ -1,9 +1,20 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
-
 body {
-  background: linear-gradient(135deg, #111, #2c2c2c);
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-
-.card-title {
-  font-size: 1.75rem;
+.card {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: none;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+.countdown-text {
+  font-size: 1.3rem;
 }
